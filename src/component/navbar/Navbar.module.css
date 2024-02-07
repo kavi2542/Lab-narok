@@ -1,0 +1,124 @@
+nav{
+    background-color:#0085ff;
+    overflow: hidden;
+    position: relative;
+    /*  ใส่แค่นี้เลย*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    
+    & a{
+        color: #fff;
+    }
+    .bars{
+       position: absolute;
+       top: 45px;
+       right: 20px;
+       color: #fff; 
+    }
+    & .container{
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+   & .navcon{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & .logo{
+        & a{
+            text-decoration: none;
+            font-weight: bold;
+
+        }
+    }
+    & ul{
+        display: flex;
+        list-style: none;
+        
+        & li{
+            margin: 0 40px;
+            & a{
+                text-decoration: none;
+            }
+        }
+    }
+    & .button{
+        width: 100px;
+        height: 35px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        transition: 0.3s;
+        cursor: pointer;
+        
+         &:hover {
+            box-shadow:  0 0 20px 0px rgba(0, 0, 0, 0.3);
+         }
+         & a{
+            text-decoration: none;
+            color: black;
+         }
+    }
+   }
+   
+}
+
+@media screen  and (max-width: 780px){
+ .navcon{
+    flex-direction: column;
+    height: auto !important;
+    margin: 50px 0;
+    align-items: start !important;
+    margin-left: 30px;
+    
+    &  ul, .button{
+        display: none !important;
+    }
+
+ }
+ .mobile_menu{
+list-style: none;
+    & li{
+        margin: 35px;
+        & a{
+            text-decoration: none;
+        }
+    }
+ }
+
+ & .mobile_button{
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    
+     &:hover {
+        box-shadow:  0 0 20px 0px rgba(0, 0, 0, 0.3);
+     }
+     & a{
+        text-decoration: none;
+        color: black;
+     }
+}
+ }
+ @media screen and (min-width: 481px) {
+    .mobile_menu, .bars,.mobile_button{
+        display: none;
+    }
+ }
+
+    
+
