@@ -4,7 +4,7 @@
 import './App.css'
 
 import Navbar from './component/navbar/Navbar'
-import Hero from './component/hero/Hero'
+import Hero from './component/Hero/Hero'
 // eslint-disable-next-line no-unused-vars
 import Skills from './component/Skill/Skills'
 import Services from './component/Services/Services'
