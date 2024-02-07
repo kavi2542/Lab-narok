@@ -4,8 +4,8 @@ import styles from './Testimonials.module.css'
 
 const Testimonials = () => {
     return (
-        <div id='Testimonials' className={styles.testi_con}>
-            <h3 className={styles.testi_title}>Testimonials</h3>
+        <div  className={styles.testi_con}>
+            <h3  id='Testimonials'className={styles.testi_title}>Testimonials</h3>
             <div className={styles.testi_list}>
                 <div className={styles.testi_items}>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.

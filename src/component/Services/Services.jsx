@@ -11,8 +11,8 @@ import { MdMiscellaneousServices } from "react-icons/md";
 
 const Services = () => {
     return (
-        <div id='MyServices' className={styles.Services_con}>
-            <h3 className={styles.Services_title}>My Services</h3>
+        <div  className={styles.Services_con}>
+            <h3  id='MyServices'className={styles.Services_title}>My Services</h3>
             <div className={styles.Services_list}>
                 <div className={styles.Services_items}>
                     <FaBitcoin />

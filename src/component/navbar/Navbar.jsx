@@ -56,7 +56,7 @@ const Navbar = () => {
             <li><a href="#SKILLS">My Skill Set</a></li>
             <li><a href="#Job">Job</a></li>
             <li><a href="#Testimonials">Testimonials</a></li>
-            <li><a href="#contact">Testimonials</a></li>
+            <li><a href="#Contact">Contact</a></li>
           </ul>
           <div className={styles.button}>
             <a href="">Hire Me</a>
@@ -72,7 +72,7 @@ const Navbar = () => {
               <li><a href="#SKILLS">My SkillSet</a></li>
               <li><a href="#Job">Job</a></li>
               <li><a href="#Testimonials">Testimonials</a></li>
-              <li><a href="#contact"></a></li>
+              <li><a href="#Contact">Contact</a></li>
             </ul>
             <div className={styles.mobile_button}>
               <a href="">Hire Me</a>

@@ -6,8 +6,8 @@ import Tilt from 'react-parallax-tilt';
 
 const Portfolio = () => {
   return (
-    <div id='Job' className={styles.port_con}>
-        <h3 className={styles.port_title}>Job</h3>
+    <div  className={styles.port_con}>
+        <h3 id='Job' className={styles.port_title}>Job</h3>
         <div className={styles.port_list}>
             <div className={styles.port_item}>
             <Tilt scale={1.1} transitionSpeed={2500}tiltReverse={true}>

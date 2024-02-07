@@ -22,8 +22,8 @@ TeamMember.propTypes = {
 
 const Team = () => {
   return (
-    <div id='TEAM' className={styles['team-container']}>
-        <h1 >Team</h1>
+    <div  className={styles['team-container']}>
+        <h1 id='TEAM' >Team</h1>
       <div className={styles['team-members']}>
       
         <TeamMember

@@ -5,10 +5,10 @@ import { FaPhone, FaEnvelope } from 'react-icons/fa6'
 
 const Contact = () => {
     return (
-        <div id='contact' className={styles.Contact_wrapper}>
+        <div  className={styles.Contact_wrapper}>
             <div className={styles.Contact_con}>
                 <div className={styles.Contact_info}>
-                    <h3> Get in touch </h3>
+                    <h3 id='Contact'> Get in touch </h3>
                     <p className={styles.Contact_desc}>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                         Mollitia totam exercitationem saepe odit at iure,
                         neque voluptatum culpa consequatur quibusdam.

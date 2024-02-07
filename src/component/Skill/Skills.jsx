@@ -9,8 +9,8 @@ import { MdMiscellaneousServices } from "react-icons/md";
 
 const Skills = () => {
   return (
-    <div id='SKILLS' className={style.skills_con}>
-      <h3 className={style.skills_title}>My SkillSet</h3>
+    <div  className={style.skills_con}>
+      <h3 id='SKILLS' className={style.skills_title}>My SkillSet</h3>
       <ul className={style.skills_list}>
          <li>
         {/* <IoLogoJavascript/> */}
